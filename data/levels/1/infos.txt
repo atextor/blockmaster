@@ -1,0 +1,18 @@
+# 
+# Level Description File
+# Level: 1 (Halls of Introduction)
+#
+requiredversion 0.00
+authorname Andreas Textor
+levelname Halls of Introduction
+shortdesc The level is not as difficult as it might seem.
+difficulty Easy
+theme default
+playercount 2
+playerstart_x1 7 
+playerstart_y1 11
+playerstart_x2 8
+playerstart_y2 11
+playerdirection_1 3
+playerdirection_2 3
+message1 Welcome to Blockmaster.
