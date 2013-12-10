@@ -251,11 +251,12 @@ int hasBlockBit(int x, int y, int Bit)
 				if ((Bit == ISWALKABLE) || (Bit == ISBLOCKCONTAINER)) return 1;
 			break;
 		case B_WATER:
-			if (inventory.flippers > 0)
+			if (inventory.flippers > 0) {
 				if ((Bit == ISWALKABLE) || (Bit == ISBLOCKCONTAINER) || 
 					(Bit == ISBLOCKDESTROYER)) return 1;
-			else
+			} else {
 				if ((Bit == ISBLOCKCONTAINER) || (Bit == ISBLOCKDESTROYER)) return 1;
+			}
 			break;
 		case B_FIRE:
 			if (inventory.fireshoes > 0)

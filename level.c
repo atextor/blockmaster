@@ -67,7 +67,6 @@ void LoadLevel(char levelfile[])
 
 void LevelInfo(char *info, char *param)
 {
-    int i;
     char string1[10];
     char string2[10];
 

@@ -96,12 +96,12 @@ int HandleAfterWalk(int x, int y)
 
 }
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 
 	char rc_file[255];
 	char levelToLoad[] = "1";
-    int i, t;
+    int i;
 	SDL_Event event; // keyboard handling
 
 	// default values

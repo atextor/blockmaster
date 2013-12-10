@@ -16,6 +16,10 @@ void ConfigSetting(char *setting, char *param, int line);
 void removeBlock(int x, int y);
 int takeItem(int x, int y);
 int hasBlockBit(int x, int y, int Bit);
+void movePlayer(int whichPlayer, int direction);
+void quit(int ret_val);
+void addActivity(int x, int y, int activityType);
+void LoadTheme(char themename[]);
 
 // structures
 struct tGraphicSettings {
